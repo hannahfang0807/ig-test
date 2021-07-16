@@ -1,0 +1,109 @@
+/* area width: 595px, height: 269px */
+/* astrounaut icon: w: 36px, h: 33px */
+/* radio btn 24 24 */
+/* spaceship icon  54 34*/
+:root {
+	--root-font-size: 16px;
+	--muted-purple: #9c64a5;
+	--light-purple: #b388fe;
+	--light-blue: #33a4fb;
+	--yellow: #ffea01;
+	--white: #fff;
+	--gray: #878787;
+}
+
+.people-select-container {
+	display: block;
+	width: 595px;
+	max-width: 595px;
+}
+
+.modern-radio-container {
+	margin: 24px 0;
+	padding-bottom: 5px;
+	display: flex;
+	cursor: pointer;
+	user-select: none;
+	border-bottom: 1px solid var(--light-purple);
+}
+
+.spaceship-icon-wrapper {
+	width: 54px;
+	height: 34px;
+	margin-right: 15px;
+}
+.spaceship-icon-wrapper img {
+	width: 100%;
+	height: 100%;
+}
+
+.radio-outer-circle {
+	width: 18px;
+	height: 18px;
+	min-width: 18px;
+	min-height: 18px;
+	border: 2px solid var(--light-purple);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 12px;
+	transition: all 0.1s linear;
+}
+
+.radio-inner-circle {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: var(--light-purple);
+	transition: all 0.1s linear;
+}
+.unselected {
+	border: 2px solid var(--gray);
+}
+.modern-radio-container:hover .unselected {
+	border: 2px solid var(--light-purple);
+}
+
+.unselected-circle {
+	width: 0;
+	height: 0;
+}
+
+.helper-text {
+	color: var(--white);
+	margin-right: 15px;
+	margin-left: 5px;
+	display: flex;
+}
+
+.helper-text span {
+	text-align: center;
+	justify-content: center;
+	display: inline-block;
+	margin: auto;
+}
+
+.astronaut-icon-wrapper {
+	margin-right: auto;
+}
+
+/* for mobile buttons */
+.booking-people-select-button-mobile-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.booking-people-select-button-mobile {
+    font-size: 1.2rem;
+    min-width: 100px;
+	color: var(--white);
+	padding: 8px 20px;
+    margin-top: 35px;
+	border: transparent;
+
+    border-radius: 5px;
+    background: #b388fe;
+    box-shadow:  2px 2px 2px #a57dea,
+                 -2px -2px 2px #c193ff;
+}

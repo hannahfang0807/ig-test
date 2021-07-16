@@ -1,0 +1,82 @@
+/* boarding-pass: w: 1195px, h: 650px */
+
+:root {
+	--root-font-size: 16px;
+	--muted-purple: #9c64a5;
+	--light-purple: #b388fe;
+	--light-blue: #33a4fb;
+	--yellow: #ffea01;
+	--white: #fff;
+	--gray: #878787;
+}
+
+.boarding-pass-wrapper {
+	/* 這是要怎麼RWD啊傻眼== */
+	width: 1195px;
+	height: 650px;
+	position: relative;
+}
+
+.bording-pass {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.booking-info-wrapper {
+	display: flex;
+}
+
+.main-text-wrapper {
+	position: absolute;
+	bottom: 5%;
+	left: 16%;
+	z-index: 999;
+	display: flex;
+	flex-direction: column;
+}
+
+.booking-main-info-row {
+	width: 400px;
+	margin-bottom: 20px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid var(--light-purple);
+	display: flex;
+}
+
+.booking-info-title {
+	margin-left: 20px;
+	margin-right: auto;
+}
+
+.booking-info-content {
+	margin-right: 20px;
+}
+.booking-info-content i {
+	color: var(--gray);
+}
+
+.sub-text-wrapper {
+	position: absolute;
+	bottom: 20%;
+	right: 20%;
+}
+
+.booking-sub-info-row {
+	margin-bottom: 40px;
+	padding: 0 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid var(--white);
+}
+
+.booking-sub-info-title {
+	margin-bottom: 5px;
+}
+
+.booking-sub-info-content {
+	color: var(--white);
+}

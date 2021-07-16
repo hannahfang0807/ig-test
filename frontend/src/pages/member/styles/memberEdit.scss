@@ -1,0 +1,164 @@
+* {
+  font-size: 0.75rem;
+  font-family: 'Noto Sans TC', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+body {
+  background-image: url('../images/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 1000px;
+}
+
+.member-edit {
+  width: 60%;
+  margin: 50px auto;
+
+  h1 {
+    font-size: 1rem;
+    width: 100%;
+    margin: 0;
+  }
+
+  .btn {
+    background-color: #fff;
+    color: black;
+    width: 250px;
+    height: 45px;
+    line-height: 30px;
+    font-size: 0.75rem;
+    margin: auto;
+    margin-top: 5%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .member-edit {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .member-edit {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .member-edit .btn {
+    width: 90%;
+  }
+}
+
+.editTop {
+  display: flex;
+  margin: 50px auto;
+  padding: 0 20%;
+  width: 95%;
+
+  .memberA {
+    width: 50%;
+
+    img {
+      border: 2px solid #ccc;
+    }
+  }
+
+  .memberB {
+    width: 40%;
+
+    .btn {
+      width: 100%;
+      height: 40px;
+      font-size: 0.75rem;
+      line-height: 25px;
+      background-color: #b388fe;
+      color: white;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .editTop {
+    width: 100%;
+
+    .memberB {
+      width: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .editTop {
+    width: 100%;
+    display: block;
+
+    .memberA {
+      width: 100%;
+      margin: 0;
+    }
+
+    .memberB {
+      width: 100%;
+      margin: 20px 0 0 0;
+
+      .btn {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.edit-form {
+  margin: auto;
+  width: 60%;
+
+  input.transparent-input,
+  select.transparent-input {
+    background-color: #02021e !important;
+    font-size: 1rem;
+    color: #fff;
+    border: none !important;
+    height: 100%;
+    width: 100%;
+    padding-left: 4%;
+  }
+
+  .input-frame {
+    border: solid 2px #b388fe;
+    border-radius: 5px;
+    position: relative;
+    height: 47px;
+  }
+
+  .input-box label {
+    color: white;
+    text-align: left;
+    width: 100%;
+  }
+
+  .btn {
+    background-color: #9c64a5;
+    color: #fff;
+    height: 45px;
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .input-box small {
+    text-align: left;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .edit-form {
+    width: 90%;
+  }
+}
+
+.input-box small {
+  color: #e40001;
+  text-align: left;
+}

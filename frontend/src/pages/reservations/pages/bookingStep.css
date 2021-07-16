@@ -1,0 +1,19 @@
+.booking-now-button-wrapper {
+	width: auto;
+	margin: 50px;
+	text-align: center;
+}
+/* 可以有空加個animation */
+
+.booking-steps-text {
+	font-size: 1.5rem;
+	color: var(--white);
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.booking-faq-button-wrapper {
+	width: auto;
+	margin: 100px;
+	text-align: center;
+}

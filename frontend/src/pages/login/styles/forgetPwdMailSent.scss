@@ -1,0 +1,53 @@
+* {
+  font-size: 0.75rem;
+  font-family: 'Noto Sans TC', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+body {
+  background-image: url('../images/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 1000px;
+}
+
+.forget-pwd {
+  width: 60%;
+  margin: auto;
+
+  h1 {
+    font-size: 1rem;
+    width: 100%;
+    margin: auto;
+  }
+
+  p {
+    font-size: 0.75rem;
+    color: #878787;
+    width: 100%;
+    margin: 30px auto;
+    line-height: 25px;
+  }
+
+  .btn {
+    background-color: #9c64a5;
+    color: #fff;
+    height: 45px;
+    font-size: 1rem;
+    width: 250px;
+    margin: auto;
+  }
+}
+
+.input-box {
+  label {
+    color: white;
+    text-align: left;
+    width: 100%;
+  }
+
+  small {
+    color: #e40001;
+    text-align: left;
+  }
+}

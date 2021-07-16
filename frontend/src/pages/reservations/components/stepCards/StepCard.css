@@ -1,0 +1,103 @@
+/* step card */
+/* width: 486px, height: 655px */
+/* mobile: width: 330px, height: 454px */
+
+/* step-icon */
+/* width: 178px, height: 175px */
+/* mobile: width: 123px, height: 121px */
+
+/* step-image */
+/* height: 392px */
+
+:root {
+	--root-font-size: 16px;
+	--muted-purple: #9c64a5;
+	--light-purple: #b388fe;
+	--light-blue: #33a4fb;
+	--yellow: #ffea01;
+	--white: #fff;
+	--gray: #878787;
+
+	--step-card-width: 486px;
+	--step-card-height: 655px;
+
+	--step-icon-width: 178px;
+	--step-icon-height: 175px;
+}
+
+html {
+	font-size: var(--root-font-size);
+	box-sizing: border-box;
+}
+
+.step-card {
+	margin: 20px;
+
+	width: var(--step-card-width);
+	height: var(--step-card-height);
+	overflow: hidden;
+	background-color: var(--muted-purple);
+	position: relative;
+	border-radius: 15px 15px 0px 30px;
+	box-shadow: 2px 2px 8px var(--muted-purple);
+}
+
+.img-wrapper {
+	height: 392px;
+	margin-bottom: 100px;
+	position: relative;
+}
+
+.img-wrapper img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.card-button {
+	display: none;
+	position: absolute;
+	bottom: 180px;
+	left: 50%;
+	transform: translateX(-50%);
+
+	/* 如果scss檔有設定好 就可以透過props來控制共用button的顏色 */
+	/* background-color: var(--light-blue); */
+}
+
+.button-show {
+	display: inline-block;
+}
+
+.step-header {
+	font-size: 40px;
+	text-align: center;
+}
+
+.step-header span {
+	color: var(--yellow);
+	font-size: inherit;
+}
+
+.step-detail {
+	padding: 0 80px;
+	margin-top: 10px;
+	font-size: 1rem;
+	text-align: start;
+	color: var(--white);
+}
+
+.step-icon {
+	width: var(--step-icon-width);
+	height: var(--step-icon-height);
+	position: absolute;
+	bottom: 180px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.step-icon img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}

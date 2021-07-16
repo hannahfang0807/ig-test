@@ -1,0 +1,67 @@
+/* store img: width: 374px, height: 249px
+mobile: w: 120px h: 80px
+
+store name: font-size: 24px(1.5rem)
+
+time button: width: 88px, height: 40px
+mobile: w: 55px h: 25px */
+
+:root {
+	--root-font-size: 16px;
+	--muted-purple: #9c64a5;
+	--light-purple: #b388fe;
+	--light-blue: #33a4fb;
+	--yellow: #ffea01;
+	--white: #fff;
+	--gray: #878787;
+}
+
+.store-info-container {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+	display: flex;
+	width: 1000px;
+	color: var(--white);
+	/* need to check the width and height */
+}
+
+.store-img-wrapper {
+	width: 374px;
+	height: 249px;
+	margin-right: 20px;
+}
+
+.store-img-wrapper img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.store-info-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.time-button-group {
+	width: 500px;
+}
+
+.store-name {
+	font-size: 2rem;
+}
+
+.store-address span,
+.store-tel span {
+	margin-right: 5px;
+}
+
+.store-address,
+.store-tel {
+	font-size: 1rem;
+}
+
+.store-tel {
+	margin-top: -10px;
+}

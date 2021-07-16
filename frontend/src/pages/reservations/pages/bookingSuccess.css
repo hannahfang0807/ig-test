@@ -1,0 +1,12 @@
+.booking-success-button-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.muted-purple-background {
+    border-radius: 5px;
+    background: #9c64a5;
+    box-shadow:  2px 2px 2px #85558c,
+                -2px -2px 2px #b373be;
+
+}

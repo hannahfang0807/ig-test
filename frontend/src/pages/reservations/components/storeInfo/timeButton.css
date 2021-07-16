@@ -1,0 +1,40 @@
+/* time button: width: 88px, height: 40px
+mobile: w: 55px h: 25px */
+
+:root {
+	--root-font-size: 16px;
+	--muted-purple: #9c64a5;
+	--light-purple: #b388fe;
+	--light-blue: #33a4fb;
+	--yellow: #ffea01;
+	--white: #fff;
+	--gray: #878787;
+}
+
+.time-button {
+	width: 88px;
+	height: 40px;
+	border: none;
+	background-color: var(--gray);
+	border-radius: 5px;
+	color: var(--white);
+	margin: 5px;
+}
+
+.availible {
+	background-color: var(--light-purple);
+}
+
+.selected {
+	-webkit-box-shadow: 0px 0px 10px 1px var(--light-purple);
+	box-shadow: 0px 0px 10px 1px var(--light-purple);
+}
+
+.unselected {
+	box-shadow: none;
+}
+
+.time-icon {
+	width: 20px;
+	height: 20px;
+}

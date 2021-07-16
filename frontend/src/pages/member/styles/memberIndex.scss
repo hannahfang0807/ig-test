@@ -1,0 +1,157 @@
+* {
+  font-size: 0.75rem;
+  font-family: 'Noto Sans TC', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 991px) {
+  * {
+    font-size: 0.85rem;
+  }
+}
+
+body {
+  background-color: #000;
+  background-image: url('../images/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 1000px;
+}
+
+.member-card {
+  width: 60%;
+  margin: 0 auto 50px;
+  height: 100%;
+  box-shadow: 5px 5px 5px #02021e;
+  border-radius: 15px 15px 15px 15px;
+  overflow: hidden;
+}
+
+.member-card-title {
+  height: 80px;
+  background-color: #02021e;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  position: relative;
+
+  p {
+    width: 100%;
+    line-height: 100%;
+    margin: 0;
+  }
+
+  span {
+    position: absolute;
+    color: #ffea01;
+    font-size: 0.75rem;
+    right: 10%;
+  }
+}
+
+.member-card-body {
+  background-color: #fff;
+  color: #02021e;
+  padding: 0 10%;
+  padding: 10%;
+}
+
+@media screen and (max-width: 991px) {
+  .member-card-title span {
+    bottom: 10%;
+  }
+
+  .member-left {
+    display: flex;
+
+    .memberA {
+      width: 50%;
+      padding: 5%;
+    }
+
+    .memberB {
+      width: 50%;
+      padding: 5%;
+
+      /* float: right; */
+    }
+  }
+}
+
+.member-left {
+  img {
+    border: 2px solid #ccc;
+    width: 100%;
+  }
+
+  p {
+    text-align: center;
+    line-height: 50px;
+    margin: 0;
+  }
+
+  .btn {
+    width: 100%;
+    height: 40px;
+    font-size: 0.75rem;
+  }
+}
+
+.member-right .btn {
+  width: 100%;
+  height: 40px;
+  font-size: 0.75rem;
+}
+
+.member-left .btn {
+  background-color: #b388fe;
+  color: white;
+}
+
+.member-right .btn {
+  background-color: #ffea01;
+  color: #02021e;
+}
+
+@media screen and (max-width: 991px) {
+  .member-right {
+    margin: 20px 0 10px 0;
+    margin: 20px 0 10px 0;
+  }
+}
+
+.member-middle {
+  .info-title {
+    color: #33a4fb;
+    min-width: 30%;
+  }
+
+  .info-text {
+    overflow: visible;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .member-middle .info-title {
+    min-width: 20%;
+  }
+}
+
+.member-btn-group {
+  margin: 20px 0;
+  width: 60%;
+  margin: 0 auto;
+
+  p {
+    line-height: 40px;
+    color: white;
+  }
+
+  .col-6:hover {
+    p,
+    img {
+      text-shadow: 1px 1px 5px rgb(255, 234, 1, 0.6);
+      filter: drop-shadow(1px 1px 5px rgb(255, 234, 1, 0.6));
+    }
+  }
+}

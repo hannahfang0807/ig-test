@@ -1,0 +1,39 @@
+/* w: 325px h: 368px */
+
+.boarding-pass-mobile-wrapper {
+	width: 325px;
+	height: 368px;
+	position: relative;	
+	margin-left: auto;
+    margin-right: auto;
+	/* todo: fix font size */
+}
+.booking-info-wrapper-m {
+	position: absolute;
+	left: 55px;
+	bottom: 60px;
+
+	display: flex;
+	flex-direction: column;
+	height: 150px;
+}
+.booking-main-info-row-m {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 2px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	width: 200px;
+	border-bottom: 1px solid var(--light-purple);
+}
+
+.booking-info-title-m {
+	width: 60px;
+	text-align: center;
+	margin-right: 15px;
+}
+
+.booking-info-content-m {
+	width: 65px;
+	text-align: center;
+}
